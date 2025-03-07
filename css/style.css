@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato';
+}
+
+header{
+    background-color: #607c3c;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    max-width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.header-left-menu{
+    text-align: left;
+}
+
+.header-right-menu{
+    text-align: right;
+}
+
+.login{
+    background-color: white;
+    border-radius: 24px;
+    border-style: none;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: .25px;
+    padding: 10px;
+}
+
+.first-ul{
+    color: white;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.first-li{
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: large;
+    text-shadow: 0 0 3px #000;   
+}
+
+.first-li:visited{
+    color: inherit;
+}
+
+/*--MAIN--*/
+
+.bg-container{
+    background-image: url(../img/new\ background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+.blurry{
+    backdrop-filter: blur(10px);
+}
+
+.col-home{
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    font-size: 45px;
+    margin: 0.5em auto;
+    color: #607c3c;
+    text-shadow: 0 0 5px black;
+}
+
+h2{
+    font-size: 25px;
+    color: #809c13;
+    text-shadow: 0 0 3px #000;
+}
+
+.content{
+    text-align: center;
+    height: 350px;
+    margin: 20px 0;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+.main-text{
+    color: white;
+    padding-top: 20px;
+}
+
+.more-info, .browser-open{
+    background-color: white;
+    border-radius: 24px;
+    border-style: none;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: .25px;
+    padding: 18px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.browser-open{
+    background-color: #000;
+    color: white;
+}
+
+.img1-2{
+    background-image: url(https://www.timber2udirect.co.uk/wp-content/uploads/2021/12/Essex-Timber-Yard-history-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2-2{
+    background-image: url(https://www.robertogiovannini.com/media/news/intaglio-engraving.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1 {
+    display: flex;
+    max-width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #809c13;
+}
+
+.bg-green3{
+    background-color: #607c3c;
+}
+
