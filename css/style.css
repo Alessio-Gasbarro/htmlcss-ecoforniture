@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background-color: #607c3c;
+    background-color: #192519;
     padding: 15px;
 }
 
@@ -72,7 +72,7 @@ header{
     text-shadow: 0 0 3px #000;   
 }
 
-.first-li:visited{
+main:visited{
     color: inherit;
 }
 
@@ -104,7 +104,7 @@ h1{
 
 h2{
     font-size: 25px;
-    color: #809c13;
+    color: #abcba2;
     text-shadow: 0 0 3px #000;
 }
 
@@ -156,10 +156,10 @@ h2{
     height: auto;
     margin: 0 auto;
     padding: 30px;
-    background-color: #809c13;
+    background-color: #abcba2;
 }
 
 .bg-green3{
-    background-color: #607c3c;
+    background-color: #192519;
 }
 
